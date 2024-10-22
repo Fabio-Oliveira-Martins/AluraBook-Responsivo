@@ -119,8 +119,8 @@
         </div>
 
         <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
 
       </div>
 
@@ -174,8 +174,8 @@
         </div>
 
         <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
       </div>
 
       <div class="card">
@@ -332,7 +332,6 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
     const swiper = new Swiper(".swiper", {
-      cssMode: true,
       loop:true,
       spaceBetween: 10,
       slidesPerView: 3,
@@ -340,11 +339,7 @@
         el: '.swiper-pagination',
         type: 'bullets',
       },
-      navigation: {
-        el: '.swiper-pagination',
-      },
-      keyboard: true,
-      clicker:true,
+      keyboard:true,
     });
   </script>
 </body>
