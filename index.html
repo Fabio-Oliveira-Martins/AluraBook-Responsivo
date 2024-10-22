@@ -332,12 +332,19 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
     const swiper = new Swiper(".swiper", {
+      cssMode: true,
+      loop:true,
       spaceBetween: 10,
       slidesPerView: 3,
       pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
       },
+      navigation: {
+        el: '.swiper-pagination',
+      },
+      keyboard: true,
+      clicker:true,
     });
   </script>
 </body>

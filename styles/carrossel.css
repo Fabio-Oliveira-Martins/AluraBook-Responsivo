@@ -73,6 +73,11 @@
     text-decoration: none;
 }
 
+.botões__ancora:hover {
+    transition: 0.2s;
+    background-color: rgb(235, 155, 0, .9);
+}
+
 @media screen and (min-width: 1024px) {
     .carrossel__titulo {
         font-size: 26px;
